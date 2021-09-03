@@ -67,7 +67,8 @@ console.log(obj)
 // { '2': 1, '3': 2, 'length': 4, 'splice': f, 'push': f }
 
 // 解析
-// 在伪数组中，push 方法根据 length 属性来决定从哪里开始插入给定的值。如果 length 不能被转成一个数值，则插入的元素索引为 0，包括 length 不存在时。当 length 不存在时，将会创建它。
+// 在伪数组中，push 方法根据 length 属性来决定从哪里开始插入给定的值。
+// 如果 length 不能被转成一个数值，则插入的元素索引为 0，包括 length 不存在时。当 length 不存在时，将会创建它。
 
 // 出处（MDN）：https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/push
 ```
