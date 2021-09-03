@@ -49,7 +49,7 @@ console.log(ret);
 
 **14）babel的实现原理和具体过程是什么？**
 
-**15）对象（伪数组）调用 push 方法，输出结果是什么？**
+**15）对象（伪数组）调用 `push` 方法，输出结果是什么？**
 
 ```javascript
 var obj = {
@@ -68,7 +68,7 @@ console.log(obj)
 ```
 
 知识点（[MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/push）)）：
-- 具有数字索引且带有 length 属性的对象又被称为类数组。
+- 具有数字索引且带有 `length` 属性的对象又被称为类数组。
 - `push` 方法可向数组的末尾添加一个或多个元素，并返回新的长度。注：该方法会改变数组的长度。
   - `push` 方法具有通用性。该方法和 `call` 或者 `apply` 一起使用时，可应用在类数组对象上。
   - `push` 方法根据 `length` 属性来决定从哪里开始插入给定的值。
