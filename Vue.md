@@ -4,3 +4,4 @@
 
 - 参考[源码揭秘](https://juejin.cn/post/7010920884789575711)
 
+**02）vuex直接用 this.$store.state 修改数据和用 commit 去修改有什么区别？**
