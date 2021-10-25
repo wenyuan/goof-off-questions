@@ -8,6 +8,8 @@ Goof Off 直译为混日子；游手好闲。这里我将它意译为摸鱼。Go
 
 - [JavaScript](JavaScript.md)
 - [Vue](Vue.md)
+- [脚手架](脚手架.md)
+- [工具](工具.md)
 - [实际开发问题](实际开发问题.md)
 
 ## 其它
